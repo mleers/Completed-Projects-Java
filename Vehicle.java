@@ -60,7 +60,7 @@ public class Sprinter extends Van {
 
 public class Car implements Vehicle {
 	public int rowsFound() {
-		int rows = 2;
+		int rows = 2;  //local variable
 		System.out.println("Number of seat rows in a car is: "+ rows);
 		return rows;
 	}
